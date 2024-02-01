@@ -1,140 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>Exercise 2 - Part 1</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b3c27dd02c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="header-container">
     <header class="header-fix">
-      <h1> <i class="fas fa-table"></i>   Formatting Table</h1>
+        <div class="header-container">
+            <h1><i class="fa-solid fa-table"></i>Formatting a Table</h1>
+        </div>
     </header>
-  </div>
-  <div class="container">
-    <section>
-      <aside class="aside">
-        <h2><i class="fa fa-question"></i>HTML Structure</h2>
-        <h3>Tags</h3>
-        <ul>
-          <li><strong>table</strong>:table</li>
-          <li><strong>table</strong>:table title</li>
-          <li><strong>thead</strong>:table header</li>
-          <li><strong>tbody</strong>:table content</li>
-          <li><strong>tr</strong>:row of the table</li>
-          <li><strong>th</strong>:Title cell of the table</li>
-          <li><strong>td</strong>:Cell of a table</li>
-        </ul>
-        <h3>Attributes</h3>
-        <ul>
-          <li><strong>colspan</strong>:defines the number of collumns to be merged</li>
-          <li><strong>rowspan</strong>: defines the number of rows to be merged</li>
-          <li><strong>scope</strong>:defines the td cells to which the th cell is linked (row/ col)</li>
-        </ul>
-      </aside>
-      <article>
-        <h2 title="Unstyled HTML"> Unstyled HTML Table</h2>
-        <p>
-          Let's start by creating a table that will list a data set, for example.<br />
-          No CSS style is applied.
-        </p>
-        <br>
-        <br>
-        <br>
-        <table>
-          <caption> Presentation of the various PHO Frameworks</caption>
-          <thead>
-            <tr>
-              <th>Framework</th>
-              <th>Year of Creation</th>
-              <th>Creator</th>
-              <th>Github Stars</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Sumfony</strong></td>
-              <td>2005</td>
-              <td>SensioLabs</td>
-              <td>23.9k</td>
-            </tr>
-            <tr>
-              <td><strong>Laravel</strong></td>
-              <td>2011</td>
-              <td>Taylor Otwwell</td>
-              <td>58.8k</td>
-            </tr>
-            <tr>
-              <td><strong>CodeIgniter</strong></td>
-              <td>2006</td>
-              <td>Rick Ellis</td>
-              <td>18k</td>
-            </tr>
-            <tr>
-              <td><strong>Zend Framework</strong></td>
-              <td>2006</td>
-              <td>Zen Technologies</td>
-              <td>5.7k</td>
-            </tr>
-            <tr>
-              <td><strong>Yii</strong></td>
-              <td>2008</td>
-              <td>Qiang xu</td>
-              <td>4.8k</td>
-            </tr>
-            <tr>
-              <td><strong>CakePHP</strong></td>
-              <td>2005</td>
-              <td>Cake Software Foundation</td>
-              <td>8.1k</td>
-            </tr>
-            <tr>
-              <td><strong>FuelPHP</strong></td>
-              <td>2011</td>
-              <td>Fuel PH dev Team</td>
-              <td>>1k</td>
-            </tr>
-            <tr>
-              <td><strong>Phalcon</strong></td>
-              <td>2012</td>
-              <td>Andres Gutierrez</td>
-              <td>10.1k</td>
-            </tr>
-            <tr>
-              <td><strong>Slim PHP</strong></td>
-              <td>-</td>
-              <td>Slim Framework Team</td>
-              <td>10.6k</td>
-            </tr>
-            <tr>
-              <td><strong>PEAR</strong></td>
-              <td>1999</td>
-              <td>Stig S. Bakken</td>
-              <td>-</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan=3><Strong> Total Stars</Strong></td>
-              <td>>100k</td>
-            </tr>
-          </tfoot>
-        </table>
-      </article>
-      <br>
-      <br>
-    </section>
-  </div>
+    <div class="container">
+        <section>
+            <aside>
+                <h2> <i class="fa-solid fa-question"></i> HTML Structure</h2>
+                <h3>Tags</h3>
+                <ul>
+                    <li><span>table</span>: table</li>
+                    <li><span>table</span>: table title</li>
+                    <li><span>thread</span>: table header</li>
+                    <li><span>tbody</span>: table content</li>
+                    <li><span>tr</span>Row of a table</li>
+                    <li><span>th</span>Title cell of a table</li>
+                    <li><span>td</span>Cell of a table</li>
+                </ul>
+                <h3>Attributes</h3>
+                <ul>
+                    <li><span>colspan</span> defines the number of columns to be merged</li>
+                    <li><span>rowspan</span> defines the number of rows to be merged</li>
+                    <li><span>scope</span> defines the td cells to which the th cell is linked (row/col)</li>
+                </ul>
+            </aside>
+            <article>
+                <h2>Unstyled HTML Table</h2>
+                <p>Let's start by creating a table that will list a data set, for example. <br> No CSS style is applied</p>
+                <br>
+                <table>
+                    <caption>Presentation of the various PHP Frameworks</caption>
+                    <tr>
+                        <th>Framework</th>
+                        <th>Year of Creation</th>
+                        <th>Creator</th>
+                        <th>GitHub Stars</th>
+                    </tr>
+                    <tr>
+                        <td class="framework">Symfony</td>
+                        <td>2005</td>
+                        <td>SensioLabs</td>
+                        <td>23.1k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Laravel</td>
+                        <td>2011</td>
+                        <td>Taylor Oatwell</td>
+                        <td>58. 8k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Codelgniter</td>
+                        <td>2006</td>
+                        <td>Rick Ellis</td>
+                        <td>18k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Zend Framework</td>
+                        <td>2006</td>
+                        <td>Zend Technologies</td>
+                        <td>5.7k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Yii</td>
+                        <td>2008</td>
+                        <td>Qiang Xu</td>
+                        <td>4.8k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">CakePHP</td>
+                        <td>2005</td>
+                        <td>Cake Software Foundation</td>
+                        <td>8.1k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">FuelPHP</td>
+                        <td>2011</td>
+                        <td>Fuel PHP Dev Team</td>
+                        <td>>1k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Phalcon</td>
+                        <td>2012</td>
+                        <td>Andres Gutierrez</td>
+                        <td>10.1k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">Slim PHP</td>
+                        <td>-</td>
+                        <td>Slim Framework Team</td>
+                        <td>10.6k</td>
+                    </tr>
+                    <tr>
+                        <td class="framework">PEAR</td>
+                        <td>1999</td>
+                        <td>Stig S. Bakken</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="framework">Total Stars</td>
+                        <td>>100k</td>
+                    </tr>
+                    <br>
+                    <br>
+                </table>
+            </article>
+        </section>
+    </div>
+
 </body>
 
 </html>
